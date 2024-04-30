@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: url("fonts/PressStart2P-Regular.ttf");
+}
+
+body {
+  background-color: lightgray;
+  font-family: "PressStart2P-Regular";
+}
+
+h1 {
+  background-color: cornsilk;
+  text-align: center;
+}
+.result {
+  background-color: darkgray;
+  width: 320px;
+  height: 80px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 320px;
+  background-color: darkgray;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  font-family: "PressStart2P-Regular";
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: darkolivegreen;
+}
